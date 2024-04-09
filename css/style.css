@@ -144,3 +144,15 @@
 .fs-30 {
     font-size: 30px;
 }
+
+.ploans {
+    padding: 100px 0;
+    background: url("../img/ploan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fs-48 {
+    font-size: 48px;
+}

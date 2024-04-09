@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'avenir-regular';
+    src: url("../fonts/avenir-standard.otf");
+}
+
+@font-face {
+    font-family: 'avenir-black';
+    src: url("../fonts/avenir-black.otf");
+}
+
+* {
+    font-family: 'avenir-regular';
+}
+
+
+/* topbar */
+.topbar {
+    background-color: #16998d;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+
+/* hero */
+.hero {
+    padding: 150px 0;
+    background: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.bold {
+    font-family: 'avenir-black';
+}
+
+.title,
+.title span {
+    font-size: 48px;
+    color: #16998c;
+}
+
+.yellow-bg {
+    background: url("../img/highlight.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.text-green {
+    color: #16998c;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.bg-yellow {
+    background-color: #fac212;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.btn-green {
+    background-color: #16998c !important;
+    color: white !important;
+    border-color: #16998c !important;
+}
+
+.fs-14 {
+    font-size: 14px;
+}

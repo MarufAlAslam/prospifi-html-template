@@ -156,3 +156,16 @@
 .fs-48 {
     font-size: 48px;
 }
+
+
+/* faq */
+.faq {
+    padding: 100px 0;
+}
+
+button.accordion-button.fs-20 {
+    background: transparent;
+    outline: unset !important;
+    box-shadow: unset !important;
+    border-bottom: 1px solid black;
+}

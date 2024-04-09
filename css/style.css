@@ -169,3 +169,21 @@ button.accordion-button.fs-20 {
     box-shadow: unset !important;
     border-bottom: 1px solid black;
 }
+
+/* footer */
+.footer {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+
+.f-logo {
+    width: 200px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}

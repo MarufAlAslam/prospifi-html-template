@@ -124,3 +124,23 @@
 .z-200 {
     z-index: 200;
 }
+
+
+/* testimonial */
+.testimonial {
+    padding: 100px 0;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.quote-icon {
+    min-width: 75px;
+    max-width: 75px;
+    width: 75px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}

@@ -32,6 +32,10 @@
     background-position: left;
 }
 
+.family-img {
+    display: none;
+}
+
 .bold {
     font-family: 'avenir-black';
 }
@@ -196,4 +200,104 @@ button.accordion-button.fs-20 {
 .bg-green-50 {
     background-color: #e0eff2;
     border: 1px solid #16998c;
+}
+
+
+@media screen and (max-width: 767px) {
+    .topbar a.d-flex.fw-semibold.fs-18.justify-content-end.text-white.text-decoration-none.align-items-center.gap-2 {
+        display: none !important;
+    }
+
+    .topbar .d-flex.justify-content-between.align-items-center {
+        justify-content: center !important;
+    }
+
+    .hero {
+        padding: 50px 0;
+        background: unset;
+        background-color: #e5e1e6;
+    }
+
+    .title,
+    .title span {
+        font-size: 40px;
+        color: #16998c;
+    }
+
+    .fs-24 {
+        font-size: 18px;
+    }
+
+    .fs-20 {
+        font-size: 16px;
+    }
+
+    .fs-21 {
+        font-size: 17px;
+    }
+
+    .family-img {
+        display: block;
+        width: 100%;
+    }
+
+    .simple-img {
+        display: none;
+    }
+
+    .simple {
+        padding: 50px 0;
+    }
+
+    .fs-44 {
+        font-size: 30px;
+    }
+
+    .right-overlay {
+        display: none;
+    }
+
+    .funding .col-md-6.m-auto.position-relative.z-200 img {
+        display: none;
+    }
+
+    .fs-38 {
+        font-size: 26px;
+    }
+
+    .funding .col-md-6.m-auto {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+
+    .fs-36 {
+        font-size: 20px;
+    }
+
+    .fs-30 {
+        font-size: 16px;
+    }
+
+    .gap-5 {
+        gap: 1rem !important;
+    }
+
+    .quote-icon {
+        min-width: 55px;
+        max-width: 55px;
+        width: 55px;
+    }
+
+    .lead {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .testimonial {
+        padding: 50px 0;
+    }
+
+    .fs-48 {
+        font-size: 25px;
+    }
 }
